@@ -8,3 +8,14 @@
 script = ExtResource( 1 )
 Cup = ExtResource( 2 )
 Match = ExtResource( 3 )
+
+[node name="Button" type="Button" parent="."]
+margin_left = 635.668
+margin_top = 447.584
+margin_right = 709.668
+margin_bottom = 467.584
+text = "Next Turn"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Button" to="." method="_next_turn"]
